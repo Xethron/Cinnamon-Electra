@@ -60,17 +60,6 @@ StScrollBar StButton#vhandle:hover {
 	background-color: rgba(204,204,204,1.0);
 }
 
-StTooltip StLabel {
-	border: 1px solid rgba(59,181,229,0.6);
-	border-radius: 4px;
-	padding: 2px 12px;
-	background-color:rgba(0,0,0,0.9);
-	color: white;
-	font-size: 8.5pt;
-	font-weight: normal;	
-	text-align: center;
-}
-
 #Tooltip {
 	border: 1px solid rgba(212,185,67,1.0);
 	border-radius: 4px;
@@ -84,6 +73,16 @@ StTooltip StLabel {
 	text-align: center;
 }
 
+StTooltip StLabel {
+	border: 1px solid rgba(59,181,229,0.6);
+	border-radius: 4px;
+	padding: 2px 12px;
+	background-color:rgba(0,0,0,0.9);
+	color: white;
+	font-size: 8.5pt;
+	font-weight: normal;	
+	text-align: center;
+}
 
 /* ===================================================================
  * Shared button properties 
@@ -133,7 +132,7 @@ StTooltip StLabel {
 }
 
 .popup-menu {
-	color: #fff;
+	color: #ffffff;
 	font-size: 9.5pt;
 	min-width: 100px;
 }
@@ -172,7 +171,7 @@ StTooltip StLabel {
 .popup-combo-menu {
 	background-color: rgba(0,0,0,0.9);
 	padding: 1em 0em;
-	color: #fff;
+	color: #ffffff;
 	font-size: 10.5pt;
 	border: 1px solid #33B3E5;
 	border-radius: 4px;
@@ -233,7 +232,7 @@ StTooltip StLabel {
 
 .popup-inactive-menu-item {
 	font-weight: normal;
-	color: #999;
+	color: #999999;
 }
 
 .popup-subtitle-menu-item {
@@ -275,7 +274,7 @@ StTooltip StLabel {
 #panel {
 	color: #ffffff;
 	background-color: rgba(0,0,0,0.82);
-	border-top: 1px solid rgba(59,181,229,0.4);   
+	border-top: 1px solid rgba(59,181,229,0.4);
 	font-size: 8.5pt;
 	font-weight: normal;
 	height: 25px;
@@ -331,7 +330,7 @@ StTooltip StLabel {
 	-natural-hpadding: 3px;
 	-minimum-hpadding: 3px;
 	font-weight: bold;
-	color: #ccc;
+	color: #cccccc;
 	height: 22px;
 }
 
@@ -379,7 +378,7 @@ StTooltip StLabel {
 	-natural-hpadding: 8px;
 	-minimum-hpadding: 4px;
 	font-weight: bold;
-	color: #ccc;
+	color: #cccccc;
 	transition-duration: 100;
 }
 
@@ -477,7 +476,7 @@ StTooltip StLabel {
 
 .workspace-thumbnail-indicator {
 	outline: 2px solid white;
-	border: 1px solid #888;
+	border: 1px solid #888888;
 }
 
 .window-caption {
@@ -530,8 +529,8 @@ StTooltip StLabel {
 }
 
 .expo-background {
-	background-gradient-start: #000;
-	background-gradient-end: #AAA;
+	background-gradient-start: #000000;
+	background-gradient-end: #aaaaaa;
 	background-gradient-direction: vertical
 }
 
@@ -561,14 +560,14 @@ StTooltip StLabel {
 }
 
 .view-tab-title {
-	color: #fff;
+	color: #ffffff;
 	font-weight: bold;
 	padding: 0px 0.75em;
 	height: 1.5em;
 }
 
 .view-tab-title:hover {
-	color: #fff;
+	color: #ffffff;
 }
 
 .view-tab-title:selected {
@@ -767,7 +766,7 @@ StTooltip StLabel {
 
 .calendar-day-base:hover {
 	background-color: #777777;
-	color: #fff;
+	color: #ffffff;
 }
 
 .calendar-day-base:active {
@@ -940,7 +939,7 @@ StTooltip StLabel {
 	spacing: 8px;
 	border-radius: 4px;
 
-	color: #ccc;
+	color: #cccccc;
 }
 
 .hotplug-resident-mount:hover {
@@ -948,7 +947,7 @@ StTooltip StLabel {
 	background-gradient-start: rgba(255, 255, 255, 0.1);
 	background-gradient-end: rgba(255, 255, 255, 0);
 
-	color: #fff;
+	color: #ffffff;
 }
 
 .hotplug-resident-mount-label {
@@ -968,7 +967,7 @@ StTooltip StLabel {
 .hotplug-resident-eject-button {
 	padding: 7px;
 	border-radius: 4px;
-	color: #ccc;
+	color: #cccccc;
 }
 
 #notification StEntry {
@@ -1104,7 +1103,7 @@ StTooltip StLabel {
 	border-radius: 4px;
 	background-color: rgba(0, 0, 0, 0.8);
 	border: 2px solid rgba(59,181,229,1.0);
-	color: #fff;
+	color: #ffffff;
 
 	padding-right: 42px;
 	padding-left: 42px;
@@ -1241,7 +1240,7 @@ StTooltip StLabel {
 }
 
 .end-session-dialog-app-list-item {
-	color: #ccc;
+	color: #cccccc;
 }
 
 .end-session-dialog-app-list-item:hover {
@@ -1330,7 +1329,7 @@ StTooltip StLabel {
 }
 
 .show-processes-dialog-app-list-item {
-	color: #ccc;
+	color: #cccccc;
 }
 
 .show-processes-dialog-app-list-item:hover {
@@ -1429,7 +1428,7 @@ StTooltip StLabel {
 
 .polkit-dialog-password-entry .capslock-warning {
 	icon-size: 16px;
-	warning-color: #999;
+	warning-color: #999999;
 	padding: 0 4px;
 }
 
@@ -1489,7 +1488,7 @@ StTooltip StLabel {
 .keyboard-key {
 	min-height: 30px;
 	min-width: 30px;
-	color:#fff;
+	color:#ffffff;
 	background-color:#363636;
 	font-size: 14pt;
 	font-weight: bold;
@@ -1498,8 +1497,8 @@ StTooltip StLabel {
 }
 
 .keyboard-key:grayed {
-	color: #fff;
-	border-color: #fff;
+	color: #ffffff;
+	border-color: #ffffff;
 }
 
 .keyboard-key:checked,
@@ -1515,7 +1514,7 @@ StTooltip StLabel {
 	color: white;
 	padding: 5px;
 	-arrow-border-radius: 10px;
-	-arrow-background-color: #fff;
+	-arrow-background-color: #ffffff;
 	-arrow-border-width: 2px;
 	-arrow-border-color: white;
 	-arrow-base: 20px;
@@ -1868,7 +1867,7 @@ StTooltip StLabel {
 
 .workspace-button:outlined {
 	padding: 1px;
-	color: #fff;
+	color: #ffffff;
 	font-weight:bold;
 	border-bottom:2px;
 	border-color: #33b5e5;
@@ -1961,7 +1960,7 @@ StTooltip StLabel {
 	padding-right:4px;
 	padding-left:4px;
 	min-width: 1.8em;
-	color: #fff;
+	color: #ffffff;
 	transition-duration: 150;
 }
 
@@ -1973,7 +1972,7 @@ StTooltip StLabel {
 
 .applet-label {	
 	font-weight: bold;
-	color: #ccc;
+	color: #cccccc;
 }
 
 .applet-label:hover,
@@ -1987,7 +1986,7 @@ StTooltip StLabel {
 
 .applet-icon:hover,
 .applet-box:hover > .applet-icon {
-	color: #fff;
+	color: #ffffff;
 	icon-shadow: white 0px 0px 3px;
 }
 
