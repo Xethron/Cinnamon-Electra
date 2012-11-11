@@ -2,6 +2,8 @@
 
 This is a Dark Cinnamon theme with a Electric Blue touch... It is mainly based off the Jelly Bean theme.
 
+![Screenshot](https://raw.github.com/Xethron/Cinnamon-Electra/master/cinnamon/thumbnail.png)
+
 ## Motivation
 
 A lot of the 3rd party Cinnamon themes are out of date and does not reflect some of the latest changes the default theme has.
