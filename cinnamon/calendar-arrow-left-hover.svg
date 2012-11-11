@@ -14,7 +14,7 @@
    width="16"
    version="1.1"
    inkscape:version="0.48.2 r9819"
-   sodipodi:docname="calendar-arrow-right.svg">
+   sodipodi:docname="calendar-arrow-left-hover.svg">
   <defs
      id="defs8" />
   <sodipodi:namedview
@@ -57,8 +57,8 @@
      id="layer1"
      transform="translate(0 -1036.4)" />
   <path
-     style="fill:#ffffff;stroke:none;opacity:0.5"
-     d="M 12,8 6,2 4,4 8,8 4,11.836635 6.1633651,14 z"
+     style="opacity:1;fill:#ffffff;stroke:none"
+     d="M 4,8 10,2 12,4 8,8 12,11.836635 9.8366349,14 z"
      id="path2987"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccccccc" />
