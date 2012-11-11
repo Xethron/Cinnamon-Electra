@@ -20,6 +20,15 @@ git clone git@github.com:Xethron/Cinnamon-Electra.git
 
 Open up Cinnamon Settings -> Themes -> Select Cinnamon Electra
 
+## Contributing
+
+1. Fork it.
+2. Create a branch (`git checkout -b my_branch`)
+3. Commit your changes (`git commit -am "Add Support for OSD"`)
+4. Push to the branch (`git push origin my_branch`)
+5. Open a [Pull Request][1]
+6. Wait for your request to be approved
+
 ## Contributors
 
 Xethron (Bernhard Breytenbach)
@@ -29,3 +38,5 @@ This theme was created by smashing the default Cinnamon theme together with the 
 ## License
 
 Cinnamon Electra is distributed under the terms of the GNU General Public License, version 2 or later.
+
+[1]: http://github.com/Xethron/Cinnamon-Electra/pulls
