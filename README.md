@@ -33,7 +33,8 @@ Open up Cinnamon Settings -> Themes -> Select Cinnamon Electra
 
 ## Contributors
 
-Xethron (Bernhard Breytenbach)
+[Xethron][2] (Bernhard Breytenbach)
+[autarkper][3] (Per Ångström)
 
 This theme was created by smashing the default Cinnamon theme together with the ICS and the Jelly Bean theme. All credits to them!
 
@@ -42,3 +43,5 @@ This theme was created by smashing the default Cinnamon theme together with the 
 Cinnamon Electra is distributed under the terms of the GNU General Public License, version 2 or later.
 
 [1]: http://github.com/Xethron/Cinnamon-Electra/pulls
+[2]: http://www.xethron.co.za
+[3]: http://github.com/autarkper
