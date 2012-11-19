@@ -1,44 +1,36 @@
 /* ###################################################################
  * Section common with Gnome Shell
- * ... contains a few cinnamon specific styles (rare occurences) 
+ * ... contains a few cinnamon specific styles (rare occurences)
+ * Created by Xethron
  * ###################################################################*/
 stage {
 	font-family: cantarell, sans-serif;
 }
-
 .cinnamon-link {
 	color: #0000ff;
 	text-decoration: underline;
 }
-
 .cinnamon-link:hover {
 	color: #33B5E5;
 }
-
 .label-shadow {
 	color: rgba(0,0,0,0.5);
 }
-
 StScrollBar {
 	padding: 0px;
 }
-
 StScrollView.vfade {
 	-st-vfade-offset: 68px;
 }
-
 StScrollView StScrollBar {
-	min-width: 9px;
+	min-width: 8px;
 	min-height: 13px;
 }
-
-
 StScrollBar StBin#trough {
 	background-color: rgba(0,0,0,0);
 	border: 1px solid #555555;
 	border-radius: 4px;
 }
-
 StScrollBar StButton#vhandle {
 	background-image: url("scroll-vhandle.svg");
 	background-gradient-start: rgba(51,181,229,0.9);
@@ -47,19 +39,16 @@ StScrollBar StButton#vhandle {
 	border: 1px solid #555555;
 	border-radius: 4px;
 }
-
 StScrollBar StButton#hhandle {
 	background-image: url("scroll-hhandle.svg");
 	background-color: rgba(204,204,204,0.3);
 	border: 1px solid #555555;
 	border-radius: 4px;
 }
-
 StScrollBar StButton#hhandle:hover,
 StScrollBar StButton#vhandle:hover {
 	background-color: rgba(204,204,204,1.0);
 }
-
 #Tooltip {
 	border: 1px solid rgba(212,185,67,1.0);
 	border-radius: 4px;
@@ -121,7 +110,6 @@ StTooltip StLabel {
 /* ===================================================================
  * PopupMenu (popupMenu.js) 
  * ===================================================================*/
-
 .popup-menu-boxpointer {
 	-arrow-border-radius: 4px;
 	-arrow-background-color: rgba(0,0,0,0.87);
@@ -130,17 +118,14 @@ StTooltip StLabel {
 	-arrow-base: 22px;
 	-arrow-rise: 8px;
 }
-
 .popup-menu {
 	color: #ffffff;
 	font-size: 9.5pt;
 	min-width: 100px;
 }
-
 .popup-submenu-menu-item:open {
 	background-color: rgba(0,0,0,0.84);
 }
-
 .popup-sub-menu {
 	background-gradient-start: rgba(80,80,80,0.3);
 	background-gradient-end: rgba(80,80,80,0.7);
@@ -154,20 +139,16 @@ StTooltip StLabel {
 .popup-sub-menu .popup-menu-item:rtl {
 	padding-left: 0em;
 }
-
 .popup-sub-menu StScrollBar {
-	padding: 4px;
+	padding: 2px;
 }
-
 .popup-sub-menu StScrollBar StBin#trough {
 	border-width: 0px;
 }
-
 .popup-sub-menu StScrollBar StBin#vhandle {
 	background-color: #4c4c4c;
 	border-width: 0px;
 }
-
 .popup-combo-menu {
 	background-color: rgba(0,0,0,0.9);
 	padding: 1em 0em;
@@ -176,46 +157,37 @@ StTooltip StLabel {
 	border: 1px solid #33B3E5;
 	border-radius: 4px;
 }
-
 /* The remaining popup-menu sizing is all done in ems, so that if you
  * override .popup-menu.font-size, everything else will scale with it.
  */
 .popup-menu-content {
-	padding: 1em 0em;
+	padding: 0.5em 0em;
 }
-
 .popup-menu-item {
 	padding: .4em 1.75em;
 	spacing: 1em;
 }
-
 .popup-menu-item:active {
 	background-color: rgba(59,181,229,0.4);
 }
-
 .popup-menu-item:insensitive {
 	color: #9f9f9f;
 }
-
 .popup-image-menu-item {
 }
-
 .popup-combobox-item {
 	spacing: 1em;
 }
-
 .popup-separator-menu-item {
-	-gradient-height: 2px;
+	-gradient-height: 1px;
 	-gradient-start: rgba(59,181,229,0.01);
-	-gradient-end: #555555;
+	-gradient-end: rgb(59,181,229);
 	-margin-horizontal: 1.5em;
 	height: 0.1em;
 }
-
 .popup-alternating-menu-item:alternate {
 	font-weight: bold;
 }
-
 .popup-slider-menu-item {
 	height: 1em;
 	min-width: 15em;
@@ -225,24 +197,19 @@ StTooltip StLabel {
 	-slider-border-width: 1px;
 	-slider-handle-radius: 0.5em;
 }
-
 .popup-device-menu-item {
 	spacing: .5em;
 }
-
 .popup-inactive-menu-item {
 	font-weight: normal;
 	color: #999999;
 }
-
 .popup-subtitle-menu-item {
 	font-weight: bold;
 }
-
 .popup-menu-icon {
 	icon-size: 1.14em;
 }
-
 /* Switches (to be used in menus) */
 .toggle-switch {
 	width: 64px;
@@ -266,28 +233,22 @@ StTooltip StLabel {
 .nm-menu-item-icons {
 	spacing: .5em;
 }
-
 /* ===================================================================
  * Panel (panel.js)
  * ===================================================================*/
-
 #panel {
 	color: #ffffff;
-	background-color: rgba(0,0,0,0.82);
-	border-top: 1px solid rgba(59,181,229,0.4);
+	background-color: rgba(0,0,0,0.2);
 	font-size: 8.5pt;
 	font-weight: normal;
 	height: 25px;
 }
-
 #panelLeft {
-	spacing: 4px;
+	spacing: 2px;
 }
-
 #panelCenter {
-	spacing: 4px;
+	spacing: 2px;
 }
-
 #panelLeft:dnd {
 	background-gradient-direction: vertical;
 	background-gradient-start: rgba(255,0,0,0.05);
@@ -306,24 +267,27 @@ StTooltip StLabel {
 #panelLeft:ltr {
 	padding-right: 4px;
 }
-
 #panelLeft:rtl {
 	padding-left: 4px;
 }
-
 #panelRight:ltr {
 	padding-left: 0px;
 	spacing: 0px;
 }
-
 #panelRight:rtl {
 	padding-right: 0px;
 	spacing: 0px;
 }
-
 .panel-top {
+	/* Error setting border-bottom property...
+	 * This is a simple bypass */
+	border: 1px solid rgba(59,181,229,0.4);
+	border-left: none;
+	border-right: none;
+	border-top: none;
 }
 .panel-bottom {
+	border-top: 1px solid rgba(59,181,229,0.4);
 }
 .panel-status-button {
 	border: 0px solid #8b8b8b;
@@ -333,11 +297,9 @@ StTooltip StLabel {
 	color: #cccccc;
 	height: 22px;
 }
-
 .panel-status-button:hover {
 	color: #33B5E5;
 }
-
 .system-status-icon {
 	padding-left: 0px;
 	padding-right: 0px;
