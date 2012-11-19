@@ -17,7 +17,7 @@ The idea behind this theme is to create the best looking dark theme possible for
 ```bash
 mkdir ~/.themes
 cd ~/.themes
-git clone git@github.com:Xethron/Cinnamon-Electra.git
+git clone git://github.com/Xethron/Cinnamon-Electra.git
 ```
 
 Open up Cinnamon Settings -> Themes -> Select Cinnamon Electra
