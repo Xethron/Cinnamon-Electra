@@ -500,6 +500,12 @@ StTooltip StLabel {
 	background-color: rgba(0,0,0,0.4);
 }
 
+.expo-window-close-button {
+    background-image: url("close-window.svg");
+    height: 25px;
+    width: 25px;
+}
+
 .expo-workspace-thumbnail-frame {
 	border: 1px, rgba(64,64,64,0.9);
 }
