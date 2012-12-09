@@ -240,7 +240,7 @@ StTooltip StLabel {
  * ===================================================================*/
 #panel {
 	color: #ffffff;
-	background-color: rgba(0,0,0,0.2);
+	background-color: rgba(0,0,0,0.9);
 	font-size: 8.5pt;
 	font-weight: normal;
 	height: 25px;
