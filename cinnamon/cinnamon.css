@@ -239,6 +239,7 @@ StTooltip StLabel {
  * Panel (panel.js)
  * ===================================================================*/
 #panel {
+	font-family: sans, sans-serif;
 	color: #ffffff;
 	background-color: rgba(0,0,0,0.9);
 	font-size: 8.5pt;
